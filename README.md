@@ -4,6 +4,8 @@ A Power BI project on a dummy dataset of a company selling plants.
 
 # Plant Co.
 
+![Image](https://github.com/user-attachments/assets/a1f615db-4294-4eed-9583-86e6e65f7fc7)
+
 ### Dashboard Link : Currently I am using the free version of Power BI Services so the link might not be functioning, the Power BI file itself will be uploaded along with this text file as well.
 https://app.powerbi.com/groups/me/reports/77d0a338-9887-4cfd-9f8e-45b5e02d1edc/c866b177ff5d17a46565?experience=power-bi
 
