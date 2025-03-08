@@ -28,6 +28,22 @@ Since this was a dummy dataset, the problem statements were not defined, but whi
 
 - Step 2 : Cleaning the data, we begin by opening power query editor & checking "column distribution", "column quality" & "column profile" options. The data seems fine so all wwe do is remove duplicates from each table.
 
+- Step 3 : Create new tables for "Dim_Date", "Slicer Values"(To toggle between Gross Profit, Quanity, & Sales values in the charts), & "Measures" to prepare what we need to create valuable visualizations for the data. Also, create data hierarcies and relationships in the data model so that the visualisations can be drilled down and explored.
+
+- Step 4 : Create DAX formulas for "Gross Profit", "Quantity", & "Sales" for "Year to Date"(YTD) and "Prior Year to Date"(PYTD) values to compare trends.
+
+![Image](https://github.com/user-attachments/assets/8c777d4f-b0e4-4600-9196-ff6b4368120e)
+![Image](https://github.com/user-attachments/assets/4b27f696-ef67-4023-bf2c-7fe9ab0cd6f9)
+
+- Step 5 : Pick and test visualizations for our dashboard to consider what can provide most value to our users. In this respect, we have chosen a card to display "YTD", "YTD vs PYTD", "PYTD", "GP %", to display margins within the company's profitability which can be toggled and drilled with Treemaps, Waterfall Charts, Bar Charts, Scatter Charts, & Line & Stacked Column Charts.
+
+![Image](https://github.com/user-attachments/assets/056cea9a-ab7b-44c4-81f7-673262e420e0)
+
+(For example, in this screenshot here, we can see that in 2023, the bottom region for plant sales was China, which months were the least profitable from the Waterfall Chart, which accounts had the most Gross Profit % to refocus efforts to those accounts, and we can drill down into the Waterfall Chart to see which products had the most loss, in this case it was the "Indoor" plant products)
+
+
+- Step 2 : Cleaning the data, we begin by opening power query editor & checking "column distribution", "column quality" & "column profile" options. The data seems fine so all wwe do is remove duplicates from each table.
+
 - Step 3 : Create new tables for "Dim_Date", "Slicer Values"(To toggle between Gross Profit, Quanity, & Sales values in the charts), & "Measures" to prepare what we need to create valuable visualizations for the data.
 
 - Step 4 : Create DAX formulas for "Gross Profit", "Quantity", & "Sales" for "Year to Date"(YTD) and "Prior Year to Date"(PYTD) values to compare trends.
