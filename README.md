@@ -46,11 +46,10 @@ Since this was a dummy dataset, the problem statements were not defined, but whi
 
 - Step 7 : Published to Power BI Service(though in this case since I have not paid for the subscription, the dashboard can't be shared, the Power BI file is included in this Github for access instead).
 
-# Insights
+# Insights & Possible Follow-Up Actions
 
 A single page report was created on Power BI Desktop & it was then published to Power BI Service.
 
-Following inferences can be drawn from the dashboard;
 
 ### [1] Total Number of Customers = 129880
 
