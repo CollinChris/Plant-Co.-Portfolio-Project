@@ -25,8 +25,12 @@ Since this was a dummy dataset, the problem statements were not defined, but whi
 ### Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a xls file. Excel file contains 3 tables called "Plant_Fact", "Accounts, & "Plant Hierarcy" and will be renamed in Power BI to "Fact_Sales", "Dim_Accounts", & "Dim_Products" respectively for easier identification.
+
 - Step 2 : Cleaning the data, we begin by opening power query editor & checking "column distribution", "column quality" & "column profile" options. The data seems fine so all wwe do is remove duplicates from each table.
+
 - Step 3 : Create new tables for "Dim_Date", "Slicer Values"(To toggle between Gross Profit, Quanity, & Sales values in the charts), & "Measures" to prepare what we need to create valuable visualizations for the data.
+
 - Step 4 : Create DAX formulas for "Gross Profit", "Quantity", & "Sales" for "Year to Date"(YTD) and "Prior Year to Date"(PYTD) values to compare trends.
+
 ![Image](https://github.com/user-attachments/assets/8c777d4f-b0e4-4600-9196-ff6b4368120e)
 ![Image](https://github.com/user-attachments/assets/4b27f696-ef67-4023-bf2c-7fe9ab0cd6f9)
