@@ -9,6 +9,13 @@ A Power BI project on a dummy dataset of a company selling plants.
 ### Dashboard Link : Currently I am using the free version of Power BI Services so the link might not be functioning, the Power BI file itself will be uploaded along with this text file as well.
 https://app.powerbi.com/groups/me/reports/77d0a338-9887-4cfd-9f8e-45b5e02d1edc/c866b177ff5d17a46565?experience=power-bi
 
+## Content
+
+- Problem Statement
+- Steps followed
+- Insights & Possible Follow-up Actions
+- Summary
+
 ## Problem Statement
 
 Since this was a dummy dataset, the problem statements were not defined, but while creating the dashboard I have formed my own problem statements based on the data found.
@@ -48,86 +55,22 @@ Since this was a dummy dataset, the problem statements were not defined, but whi
 
 # Insights & Possible Follow-Up Actions
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+![Image](https://github.com/user-attachments/assets/e74306f0-9ab4-4909-a302-c0b736478323)
 
+- In 2023, the products attributing to the most of the the -265k decline in gross profit compared to the previous year, were Indoor and Landscape plants(-237k, -106k), compared to the Outdoor plants which increased by 77k, indicating a rise in popularity of outdoor plants. This shows an increase in popularity of outdoor plants so we could focus inventory on Outdoor plants or focus marketing on Indoor/Landscape plants depending on what the targets of the business owners are.
 
-### [1] Total Number of Customers = 129880
+- Similiar in 2024, the Indoor/Landscape plants attributed to the most decline(though not as much which might indicate that previous year efforts to increase sales/profitability in these products worked or there might have been an increase in demand, further analysis can be done to determine which and what directions can be followed from that point)  while Outdoor plants maintained a slight upward trend so it shows the trends are consistent so far.
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+![Image](https://github.com/user-attachments/assets/38f4d640-6b15-450d-8499-a4ba75ae9836)
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+![Image](https://github.com/user-attachments/assets/2f7f2548-39f2-4a9c-ae7e-e9de28774483)
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+- From 2023 to 2024, China went from being the bottom country with gross profit of -405k to being profitable at 1.62k in 2024, with the most profit being in February, so it is worthwhile to analyze marketing strategies that within that time or to check in other features(such as Chinese New Year) may have affect that positive trend for future actions.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
+![Image](https://github.com/user-attachments/assets/0854f1c9-84e9-4cec-9eb8-710c70158db4)
 
+- In 2024, the bottom country in Sales was Canada, declining 73k from the previous year, from  the screenshot given, I have circled the accounts with the most gross profit in red at the bottom left of the dashboard. We can focus business strategies to market to those accounts or ones with similiar demographics to those.
 
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
+# Summary
 
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
-
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
-
-3.1) 18.31 % customers have customer type 'First time'.
-
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
-
-### Type of travel
-
-4.1) 69.06 % customers have travel type 'Business'.
-
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
-
-
+- From the insights above, it can be shown how the dashboard can be used to find further insights for the users/business, and depending on which direction to stakeholders decide to go, we can use the relationships between the data to do further analysis to suggest the best courses of action and form business strategies.
