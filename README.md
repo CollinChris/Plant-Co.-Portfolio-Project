@@ -33,7 +33,7 @@ Since this was a dummy dataset, the problem statements were not defined, but whi
 
 - Step 1 : Load data into Power BI Desktop, dataset is a xls file. Excel file contains 3 tables called "Plant_Fact", "Accounts, & "Plant Hierarcy" and will be renamed in Power BI to "Fact_Sales", "Dim_Accounts", & "Dim_Products" respectively for easier identification.
 
-- Step 2 : Cleaning the data, we begin by opening power query editor & checking "column distribution", "column quality" & "column profile" options. The data seems fine so all wwe do is remove duplicates from each table.
+- Step 2 : Cleaning the data, we begin by opening power query editor & checking "column distribution", "column quality" & "column profile" options. The data seems fine so all we do is remove duplicates from each table.
 
 - Step 3 : Create new tables for "Dim_Date", "Slicer Values"(To toggle between Gross Profit, Quanity, & Sales values in the charts), & "Measures" to prepare what we need to create valuable visualizations for the data. Also, create data hierarcies and relationships in the data model so that the visualisations can be drilled down and explored.
 
