@@ -18,7 +18,7 @@ https://app.powerbi.com/groups/me/reports/77d0a338-9887-4cfd-9f8e-45b5e02d1edc/c
 
 ## Problem Statement
 
-Since this was a dummy dataset, the problem statements were not defined, but while creating the dashboard I have formed my own problem statements based on the data found.
+Since this was a dummy dataset, the problem statements were not defined, so while creating the dashboard I have formed my own problem statements based on the data found.
 
 - The gross profit comparison of Year to Date and Prior Year to Date went from a -265k to -77k in 2023 to 2024 respectively, find insights within the data to suggest reasons why and what actionable strageties that could be implemented to continue this upward trend.
 
